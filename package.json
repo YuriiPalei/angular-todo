@@ -32,6 +32,17 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "prettier": "^3.5.3",
     "typescript": "~5.7.2"
+  },
+  "prettier": {
+    "printWidth": 110,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "arrowParens": "always"
   }
 }
