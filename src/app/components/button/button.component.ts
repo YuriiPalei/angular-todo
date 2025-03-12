@@ -15,5 +15,5 @@ import { Component, input } from '@angular/core';
   `,
 })
 export class Button {
-  readonly title = input('');
+  readonly title = input.required<string>();
 }
